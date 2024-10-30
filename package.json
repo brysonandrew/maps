@@ -3,13 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "@maplibre/maplibre-gl-geocoder": "^1.7.0",
+    "maplibre-gl": "^4.7.1",
     "next": "^15.0.2",
     "react": "^18",
     "react-dom": "^18"
